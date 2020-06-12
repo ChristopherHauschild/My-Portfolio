@@ -1,7 +1,7 @@
 
 # <p align="center">:mortar_board:  &nbsp; Portfolio :mortar_board: </p>
 
-<p align="center>
+<p align="center">
   <img href="https://github.com/ChristopherHauschild/My-Portfolio/blob/master/port.PNG?raw=true" width="900px">
 </p>
 
