@@ -1,5 +1,5 @@
 
-#  Portfolio :mortar_board:
+# <p align="center">:mortar_board:  &nbsp; Portfolio :mortar_board: </p>
 
 
 Esta aplicação foi desenvolvida utilizando o React, juntamento ao Material UI e styled-components, e surgiu da necessidade que encontrei de disponibilizar em algum outro local informações pessoais e sobre meu contato com o mundo da programação.
