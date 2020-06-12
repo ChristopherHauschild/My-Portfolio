@@ -2,7 +2,7 @@
 # <p align="center">:mortar_board:  &nbsp; Portfolio :mortar_board: </p>
 
 <p align="center">
-  <img width="900px" href="https://github.com/ChristopherHauschild/My-Portfolio/blob/master/port.PNG?raw=true" />
+  <img width="900px" src="https://github.com/ChristopherHauschild/My-Portfolio/blob/master/port.PNG?raw=true" />
 </p>
 
 Esta aplicação foi desenvolvida utilizando o React, juntamento ao Material UI e styled-components, e surgiu da necessidade que encontrei de disponibilizar em algum outro local informações pessoais e sobre meu contato com o mundo da programação.
