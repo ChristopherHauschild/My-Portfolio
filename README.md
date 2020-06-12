@@ -71,4 +71,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 <hr>
 
-Para maiores informações sobre a aplicação, acesse <a href="https://github.com/ChristopherHauschild/Portfolio">este link</a>
+#### Para maiores informações sobre a aplicação, acesse <a href="https://github.com/ChristopherHauschild/Portfolio">este link</a>
