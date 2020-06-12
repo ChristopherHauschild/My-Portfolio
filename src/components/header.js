@@ -81,7 +81,7 @@ const Header = () => {
                   </MenuLink>
 
                   {/*eslint-disable-next-line*/}
-                  <ExternalLink target="_blank" href="https://github.com/ChristopherHauschild/my-portfolio">
+                  <ExternalLink target="_blank" href="https://github.com/ChristopherHauschild/My-Portfolio">
                     <MenuLinkCodeComponent onClick={handleClose}>
                       <MenuLinkCode />
                       <MenuLinkText>Código</MenuLinkText>
@@ -120,7 +120,7 @@ const Header = () => {
             </Contact>
 
             {/*eslint-disable-next-line*/}
-            <ExternalLink target="_blank" href="https://github.com/ChristopherHauschild/Portfolio">
+            <ExternalLink target="_blank" href="https://github.com/ChristopherHauschild/My-Portfolio">
               <Code>
                 <ButtonCode>
                   <CodeIcon />
