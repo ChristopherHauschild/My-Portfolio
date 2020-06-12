@@ -1,8 +1,10 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+#  Portfolio :mortar_board:
 
-In the project directory, you can run:
+
+Esta aplicação foi desenvolvida utilizando o React, juntamento ao Material UI e styled-components, e surgiu da necessidade que encontrei de disponibilizar em algum outro local informações pessoais e sobre meu contato com o mundo da programação.
+
+Para rodar esse app, você pode seguir as instruções padrões do Create React App, logo abaixo:
 
 ### `yarn start`
 
@@ -66,3 +68,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+<hr>
+
+Para maiores informações sobre a aplicação, acesse <a href="https://github.com/ChristopherHauschild/Portfolio">este link</a>
