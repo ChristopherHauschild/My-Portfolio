@@ -9,6 +9,8 @@ Esta aplicação foi desenvolvida utilizando o React, juntamento ao Material UI 
 
 Para rodar esse app, você pode seguir as instruções padrões do Create React App, logo abaixo:
 
+<hr>
+
 ### `yarn start or npm start`
 
 Runs the app in the development mode.<br />
