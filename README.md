@@ -7,42 +7,33 @@ Esta aplicação foi desenvolvida utilizando o React, juntamento ao Material UI 
   <img width="900px" src="https://github.com/ChristopherHauschild/My-Portfolio/blob/master/port.PNG?raw=true" />
 </p>
 
-Para rodar esse app, você pode seguir as instruções padrões do Create React App, logo abaixo:
+## Instalação: :rocket:
 
 <hr>
 
-### `yarn start or npm start`
+### `yarn || npm install `
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Rode estes comando no diretório raíz para realizar a instalação das depedências.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### `yarn start || npm start`
 
-### `yarn test or npm run test`
+Para rodar a aplicação em modo de desenvolvimento.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Acesse [http://localhost:3000](http://localhost:3000) no seu browser.
 
-### `yarn build or npm run build`
+### `yarn test || npm run test`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para rodar a aplicação no modo teste, com observação interativa
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### `yarn build || npm run build`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Para rodar a aplicação no modo produção. Será criado o diretório `build`.
 
-### `yarn eject or npm run eject`
+### `yarn eject || npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Para remover a dependência de compilação única do seu projeto, o que irá permitir que você modifique as configurações padrões da ferramenta de criação; 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+**Observação: após ejetar, você não pode voltar atrás**
 
 <hr>
 
