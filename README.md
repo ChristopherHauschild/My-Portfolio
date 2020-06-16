@@ -9,8 +9,6 @@ Esta aplicação foi desenvolvida utilizando o React, juntamento ao Material UI 
 
 ## Instalação: :rocket:
 
-<hr>
-
 ### `yarn || npm install `
 
 Rode estes comando no diretório raíz para realizar a instalação das depedências.
