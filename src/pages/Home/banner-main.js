@@ -11,7 +11,7 @@ const BannerMain = () => {
   return (
     <Banner>
       <Title variant="h2">
-      <span class="text_1">Bem vindo =) &nbsp;</span>
+      <span class="text_1">Bem vindo(a) =) &nbsp;</span>
       <span class="text_2">Sinta-se em casa &nbsp;</span>
       </Title>
       <Subtitle variant="h5">
