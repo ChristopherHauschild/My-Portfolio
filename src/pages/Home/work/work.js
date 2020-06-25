@@ -135,7 +135,7 @@ const Work = () => {
                     <TypographyWorkContent>
                       <TypographyText>
                         <b>Descrição:</b> atuo no back office dando suporte ao cliente no andamentos de documentos não interpretados
-                        pela I.A, realizando quando necessário configurações no server AWS. Produzo também conteúdo sobre a API da empresa.
+                        pela I.A, realizando quando necessário configurações no server AWS. Auxilio também na produção de conteúdo sobre a API e produtos oferecidos pela empresa.
                       </TypographyText>
                     </TypographyWorkContent>
                   </ContentWork>
