@@ -7,7 +7,11 @@ import {
   Paper
 } from '@material-ui/core'
 
-import Cards from './cards-events.js'
+import mdl from '../../../assets/mdl.png'
+import rckt from '../../../assets/rckt.png'
+import alura from '../../../assets/alura.png'
+
+import Card from './cards-events.js'
 
 const Events = () => {
   return (
@@ -18,8 +22,39 @@ const Events = () => {
           <TypographyTitle>Eventos</TypographyTitle>
           <DividerTitle />
         </GridTitle>
+      
+      <CardsContainer>
+        <Card
+          image={mdl}
+          title="Workshop Full Stack Lab"
+          content="Evento disponibilizado pela plataforma de ensino devPleno em que se desenvolveu, durante uma semana, o aplicativo MyDailyStatus, utilizando React integrado ao Node.js e Firebase."
+          linkButton="https://github.com/ChristopherHauschild/app-fullstackLab-workshop"
+        />
 
-        <Cards />
+        <Card
+          image={rckt}
+          title="Semana Omnistack 11.0"
+          content="Evento disponibilizado pela Rocketseat, durante o qual se desenvolveu em uma semana um aplicativo (Be The Hero) completo para web
+          e mobile, utilizando React, React Native e Node.js."
+          linkButton="https://github.com/ChristopherHauschild/Omnistack-BeTheHero"
+        />
+
+        <Card
+          image={rckt}
+          title="Next Level Week 1.0"
+          content="Evento disponibilizado pela Rocketseat, durante o qual se desenvolveu em uma semana um aplicativo (Ecoleta) completo para web
+          e mobile, utilizando React, React Native, TypeScript e Node.js."
+          linkButton="https://github.com/ChristopherHauschild/next-level-week-ecoleta"
+        />
+
+        <Card
+          image={alura}
+          title="#QuarentenaDev"
+          content="Evento disponibilizado pela Alura, durante o qual foram disponilizadas atividades e desenvolvido projetos
+          em JavaScript, HTML e CSS durante 10 dias."
+          linkButton="https://github.com/ChristopherHauschild/maratona-alura-quarentenadev"
+        />
+      </CardsContainer>
 
       </PaperContainer>
     </GridContainer>
@@ -61,6 +96,12 @@ const TypographyTitle = styled(Typography).attrs({
       text-align: center;
     }
   }
+`
+
+const CardsContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 `
 
 const DividerTitle = styled(Divider)``

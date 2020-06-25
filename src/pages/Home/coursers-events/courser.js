@@ -7,7 +7,11 @@ import {
   Paper
 } from '@material-ui/core'
 
-import Cards from './cards-coursers.js'
+import logoRN from '../../../assets/logoRN.jpg'
+import logoC3 from '../../../assets/logoC3.png'
+import USP from '../../../assets/USP.png'
+
+import Card from './cards-coursers.js'
 
 const Courser = () => {
   return (
@@ -19,7 +23,32 @@ const Courser = () => {
           <DividerTitle />
         </GridTitle>
 
-        <Cards />
+      <CardsContainer>
+        <Card
+          image={logoRN}
+          title="React.js Ninja - React Completo"
+          content="Curso disponibilizado pelo dev Fernando Daciuk na plataforma Udemy. Foca em capacitar
+          o aluno a atuar no mercado de trabalho utilizando React. O curso tem duração de cerca 80 horas,
+          e é divido em 4 módulos, durante os quais são realizados projetos completos."
+          linkButton="https://github.com/ChristopherHauschild/curso-react-ninja"
+        />
+
+        <Card
+          image={logoC3}
+          title="Web Moderno com JavaScript 2020 Completo + Projetos"
+          content="Disponibilizado pela plataform Cod3r, tem duração de mais de 75 horas e foca em capacitar o aluno
+          a atuar como dev Web Full Stack, apresentando as principais tecnologias do mercado."
+          linkButton="https://github.com/ChristopherHauschild/curso-web-moderno-cod3r"
+        />
+
+        <Card
+          image={USP}
+          title="Introdução à Ciência da Computação com Python"
+          content="Curso disponibilizado pela USP na plataforma Coursera, foca em criar uma base sólida de
+          Python, além de introduzir o aluno à Ciência da Computação. Conta com mais de 30 horaas de conteúdo."
+          linkButton="https://github.com/ChristopherHauschild/intro-to-computer-science-with-python"
+        />
+      </CardsContainer>
 
       </PaperContainer>
     </Grid>
@@ -55,6 +84,12 @@ const TypographyTitle = styled(Typography).attrs({
       text-align: center;
     }
   }
+`
+
+const CardsContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 `
 
 const DividerTitle = styled(Divider)``
