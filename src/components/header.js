@@ -158,7 +158,7 @@ const HeaderMain = styled(Toolbar)`
 
     width: 100%;
     min-height: 64px;
-    max-width: 1300px;
+    max-width: 1180px;
   }
 `
 

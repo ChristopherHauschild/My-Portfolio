@@ -73,7 +73,7 @@ const Subtitle = styled(Typography)`
     line-height: 45px;
     padding: 15px 40px;
     max-width: 900px;
-    margin-bottom: 90px;
+    margin-bottom: 82px;
 
     @media only screen and (max-width:800px) {
       font-size: 1.7rem;
@@ -94,7 +94,7 @@ const KnowMore = styled(Button).attrs({
     font-weight: bold;
     font-size: 1.2rem;
     padding: 10px 80px;
-    margin-bottom: 70px;
+    margin-bottom: 80px;
   }
 
   &&:hover {
