@@ -67,7 +67,7 @@ const Title = styled(Typography)`
 const Subtitle = styled(Typography)`
   && {
     font-weight: 400;
-    margin-top: 30px;
+    margin-top: 45px;
     color: #fff;
     text-align: center;
     line-height: 45px;
