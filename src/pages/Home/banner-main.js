@@ -45,7 +45,7 @@ const Banner = styled.div`
 const Title = styled(Typography)`
   && {
     display: flex;
-    margin-top: 120px;
+    margin-top: 140px;
     padding: 15px 40px;
 
     font-weight: bold;
