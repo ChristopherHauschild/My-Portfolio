@@ -111,7 +111,7 @@ const GridContainer = styled(Grid)`
 const GridContacts = styled(Grid)`
   && {
     margin-top: 30px;
-    margin-bottom: 80px;
+    margin-bottom: 120px;
     background: none;
     box-shadow: none;
   }
