@@ -1,30 +1,26 @@
-import React from 'react'
-import styled from 'styled-components'
-import {
-  Typography,
-  Grid,
-  Paper,
-  Divider
-} from '@material-ui/core'
+import React from "react";
+import styled from "styled-components";
+import { Typography, Grid, Paper, Divider } from "@material-ui/core";
 
-import ExploreIcon from '@material-ui/icons/Explore'
-import TodayIcon from '@material-ui/icons/Today'
+import ExploreIcon from "@material-ui/icons/Explore";
+import TodayIcon from "@material-ui/icons/Today";
 
-import EMEI from '../../../assets/EMEI.png'
-import logyc from '../../../assets/logyc.png'
-import cfa from '../../../assets/cfa.png'
+import EMEI from "../../../assets/EMEI.png";
+import logyc from "../../../assets/logyc.png";
+import cfa from "../../../assets/cfa.png";
 
-import background from '../../../assets/banner4.jpg'
+import background from "../../../assets/banner4.jpg";
 
 const Work = () => {
   return (
     <GridContainer container spacing={2} style={{ marginBottom: 25 }}>
       <Grid item xs={12}>
-        <PaperContainer style={{ padding: 20 }} elevation={3} variant="contained">
-
-          <TitleWork>
-            Experiência Profissional
-          </TitleWork>
+        <PaperContainer
+          style={{ padding: 20 }}
+          elevation={3}
+          variant="contained"
+        >
+          <TitleWork>Experiência Profissional</TitleWork>
 
           <DividerUp />
 
@@ -37,10 +33,8 @@ const Work = () => {
                 </ContainerImage>
 
                 <ContainerDescription>
-                  <TypographyWorkTitle>
-                    Secretário
-                  </TypographyWorkTitle>
-                  
+                  <TypographyWorkTitle>Secretário</TypographyWorkTitle>
+
                   <DividerTitle />
 
                   <ContentWork>
@@ -56,13 +50,16 @@ const Work = () => {
 
                     <TypographyWorkContent>
                       <TypographyText>
-                        <b>Descrição:</b> além do serviço de atendimento e gerenciamento de papeladas, trabalhei com o pacote Office na criação de planilhas e documentos, além de utilizar
-                        o Sony Vegas e o Corel Drawn para a edição de vídeos e imagens a serem utilizados em aula.
-                        O estágio se deu a partir de um concurso realizado pela Prefeitura de Venâncio Aires.
+                        <b>Descrição:</b> além do serviço de atendimento e
+                        gerenciamento de papeladas, trabalhei com o pacote
+                        Office na criação de planilhas e documentos, além de
+                        utilizar o Sony Vegas e o Corel Drawn para a edição de
+                        vídeos e imagens a serem utilizados em aula. O estágio
+                        se deu a partir de um concurso realizado pela Prefeitura
+                        de Venâncio Aires.
                       </TypographyText>
                     </TypographyWorkContent>
                   </ContentWork>
-
                 </ContainerDescription>
               </PaperWork>
             </GridWorkItems>
@@ -74,11 +71,11 @@ const Work = () => {
                   <Divider />
                 </ContainerImage>
 
-                 <ContainerDescription>
+                <ContainerDescription>
                   <TypographyWorkTitle>
                     Assistente de Implantação
                   </TypographyWorkTitle>
-                  
+
                   <DividerTitle />
 
                   <ContentWork>
@@ -94,32 +91,34 @@ const Work = () => {
 
                     <TypographyWorkContent>
                       <TypographyText>
-                        <b>Descrição:</b> atuei auxiliando o cliente, a partir de treinamentos, no processo de implantação do software da empresa, além de realizar configurações
-                        de NF's e Integrações Bancárias. Produzi também, em texto e vídeo, materiais informativos e manuais de uso do software.
-                        O exercício das funções se deu a partir do estágio obrigatório do IFSUL.
+                        <b>Descrição:</b> atuei auxiliando o cliente, a partir
+                        de treinamentos, no processo de implantação do software
+                        da empresa, além de realizar configurações de NF's e
+                        Integrações Bancárias. Produzi também, em texto e vídeo,
+                        materiais informativos e manuais de uso do software. O
+                        exercício das funções se deu a partir do estágio
+                        obrigatório do IFSUL.
                       </TypographyText>
                     </TypographyWorkContent>
                   </ContentWork>
-
                 </ContainerDescription>
               </PaperWork>
             </GridWorkItems>
 
             <GridWorkItems container item sm={12} md={12}>
               <PaperWorkCFA>
-                  <ContainerImageCFA>
-                    <PaperImageCFA />
-                  </ContainerImageCFA>
+                <ContainerImageCFA>
+                  <PaperImageCFA />
+                </ContainerImageCFA>
 
-                  <ContainerDescriptionCAF>
-                    <TypographyDescriptionTitle>
-                      Back Office - Analista de Suporte
-                    </TypographyDescriptionTitle>
+                <ContainerDescriptionCAF>
+                  <TypographyDescriptionTitle>
+                    Back Office - Analista de Suporte
+                  </TypographyDescriptionTitle>
 
-                    <DividerTitle />
+                  <DividerTitle />
 
-                    <ContentWork>
-                    
+                  <ContentWork>
                     <InfoWork>
                       <TypographyWorkContent>
                         <ExploreIconWork />
@@ -128,29 +127,68 @@ const Work = () => {
 
                       <TypographyWorkContent>
                         <TodayIconWork />
-                        maio 2020 - emprego atual
+                        maio 2020 - agosto de 2020
                       </TypographyWorkContent>
                     </InfoWork>
 
                     <TypographyWorkContent>
                       <TypographyText>
-                        <b>Descrição:</b> atuo no back office dando suporte ao cliente no andamentos de documentos não interpretados
-                        pela I.A, realizando quando necessário configurações no server AWS. Auxilio também na produção de conteúdo sobre a API e produtos oferecidos pela empresa.
+                        <b>Descrição:</b> atuei no back office dando suporte ao
+                        cliente no andamentos de documentos não interpretados
+                        pela I.A, realizando quando necessário configurações no
+                        server AWS. Auxilei também na produção de conteúdo sobre
+                        a API e produtos desenvolvidos pela empresa.
                       </TypographyText>
                     </TypographyWorkContent>
                   </ContentWork>
-                  </ContainerDescriptionCAF>
-
+                </ContainerDescriptionCAF>
               </PaperWorkCFA>
             </GridWorkItems>
 
-          </GridWorkContainer>
+            <GridWorkItems container item sm={12} md={12}>
+              <PaperWorkCFA>
+                <ContainerImageCFA>
+                  <PaperImageCFA />
+                </ContainerImageCFA>
 
+                <ContainerDescriptionCAF>
+                  <TypographyDescriptionTitle>
+                    Desenvolvedor Frontend Pleno
+                  </TypographyDescriptionTitle>
+
+                  <DividerTitle />
+
+                  <ContentWork>
+                    <InfoWork>
+                      <TypographyWorkContent>
+                        <ExploreIconWork />
+                        Combate a Fraude
+                      </TypographyWorkContent>
+
+                      <TypographyWorkContent>
+                        <TodayIconWork />
+                        agosto de 2020 - emprego atual
+                      </TypographyWorkContent>
+                    </InfoWork>
+
+                    <TypographyWorkContent>
+                      <TypographyText>
+                        <b>Descrição:</b> atuo no desenvolvimento frontend de
+                        aplicações para web, utilizando o ecossistema do React e
+                        consumindo a API e demais serviços desenvolvidos pela
+                        empresa.
+                      </TypographyText>
+                    </TypographyWorkContent>
+                  </ContentWork>
+                </ContainerDescriptionCAF>
+              </PaperWorkCFA>
+            </GridWorkItems>
+          </GridWorkContainer>
         </PaperContainer>
       </Grid>
     </GridContainer>
-  )
-}
+  );
+};
 
 const GridContainer = styled(Grid)`
   && {
@@ -170,17 +208,17 @@ const GridContainer = styled(Grid)`
       background-size: 180% 100%;
     }
   }
-`
+`;
 
 const PaperContainer = styled(Paper)`
   && {
     background: transparent;
     box-shadow: none;
   }
-`
+`;
 
 const TitleWork = styled(Typography).attrs({
-  variant: 'h5'
+  variant: "h5",
 })`
   && {
     font-size: 2rem;
@@ -191,29 +229,29 @@ const TitleWork = styled(Typography).attrs({
     padding: 10px 0px;
     width: 100%;
     background: #0008;
-  
-    @media only screen and (max-width:600px) {
+
+    @media only screen and (max-width: 600px) {
       font-size: 1.75rem;
     }
   }
-`
+`;
 
 const DividerUp = styled(Divider)`
   && {
     background: #0002;
   }
-`
+`;
 
 const GridWorkContainer = styled(Grid)`
   && {
     margin-top: 20px;
   }
-`
+`;
 const GridWorkItems = styled(Grid)`
   && {
     padding: 10px;
   }
-`
+`;
 
 const PaperWork = styled(Paper)`
   && {
@@ -223,7 +261,7 @@ const PaperWork = styled(Paper)`
     width: 100%;
     height: auto;
   }
-`
+`;
 
 const PaperWorkCFA = styled(Paper)`
   && {
@@ -232,7 +270,7 @@ const PaperWorkCFA = styled(Paper)`
     width: 100%;
     height: auto;
     background: #fafafa;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 
     @media only screen and (min-width: 980px) {
       margin-top: 20px;
@@ -242,12 +280,12 @@ const PaperWorkCFA = styled(Paper)`
       flex-direction: column;
     }
   }
-`
+`;
 
 const ContainerImage = styled.div`
   background: black;
   border-radius: 4px;
-`
+`;
 
 const PaperImageEMEI = styled.div`
   && {
@@ -263,7 +301,7 @@ const PaperImageEMEI = styled.div`
       background-size: 72%;
     }
   }
-`
+`;
 
 const PaperImageLogyc = styled.div`
   && {
@@ -276,25 +314,25 @@ const PaperImageLogyc = styled.div`
     background-repeat: no-repeat;
     background-position: center;
   }
-`
+`;
 
 const ContainerImageCFA = styled.div`
   && {
     @media only screen and (min-width: 980px) {
       width: 330px;
-      height: 100%; 
+      height: 100%;
     }
 
     @media only screen and (max-width: 980px) {
       width: 100%;
       height: 100px;
     }
-    
+
     border-radius: 4px;
 
     background-color: black;
   }
-`
+`;
 
 const PaperImageCFA = styled.div`
   width: 100%;
@@ -307,13 +345,12 @@ const PaperImageCFA = styled.div`
     height: 270px;
     background-size: 75%;
   }
-  
+
   @media only screen and (max-width: 980px) {
     height: 100px;
     background-size: 180px 50px;
   }
-  
-`
+`;
 
 const ContainerDescription = styled.div`
   display: flex;
@@ -321,7 +358,7 @@ const ContainerDescription = styled.div`
   width: 100%;
   height: 100%;
   background: #fafafa;
-`
+`;
 
 const ContainerDescriptionCAF = styled.div`
   display: flex;
@@ -329,15 +366,15 @@ const ContainerDescriptionCAF = styled.div`
   width: 100%;
   height: 100%;
   background: #fafafa;
-`
+`;
 
 const InfoWork = styled.div`
   display: flex;
-  
+
   @media only screen and (max-width: 980px) {
     flex-direction: column;
   }
-`
+`;
 
 const TypographyWorkTitle = styled(Typography)`
   && {
@@ -352,14 +389,13 @@ const TypographyWorkTitle = styled(Typography)`
     font-size: 1.35rem;
     text-align: center;
   }
-
-`
+`;
 
 const DividerTitle = styled(Divider)`
   && {
     margin: 0px 15px;
   }
-`
+`;
 
 const ContentWork = styled.div`
   display: flex;
@@ -373,8 +409,7 @@ const ContentWork = styled.div`
   @media only screen and (max-width: 650px) {
     align-items: center;
   }
-
-`
+`;
 
 const TypographyWorkContent = styled(Typography)`
   && {
@@ -388,7 +423,7 @@ const TypographyWorkContent = styled(Typography)`
       margin-right: 20px;
     }
   }
-`
+`;
 
 const ExploreIconWork = styled(ExploreIcon)`
   && {
@@ -396,7 +431,7 @@ const ExploreIconWork = styled(ExploreIcon)`
     margin-right: 10px;
     font-size: 1.6rem;
   }
-`
+`;
 
 const TodayIconWork = styled(TodayIcon)`
   && {
@@ -404,15 +439,14 @@ const TodayIconWork = styled(TodayIcon)`
     margin-right: 10px;
     font-size: 1.6rem;
   }
-`
+`;
 const TypographyText = styled(Typography)`
   && {
     margin-top: 12px;
     text-align: justify;
     font-size: 1.15rem;
   }
-
-`
+`;
 
 const TypographyDescriptionTitle = styled(Typography)`
   && {
@@ -427,8 +461,6 @@ const TypographyDescriptionTitle = styled(Typography)`
       text-align: center;
     }
   }
-`
+`;
 
-
-
-export default Work
+export default Work;
