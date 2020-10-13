@@ -103,7 +103,7 @@ const GridContainer = styled(Grid)`
     background: none;
     box-shadow: none;
 
-    margin: 0 auto 30px;
+    margin: 0 auto;
     max-width: 1280px;
   }
 `;
@@ -111,7 +111,7 @@ const GridContainer = styled(Grid)`
 const GridContacts = styled(Grid)`
   && {
     margin-top: 30px;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
     background: none;
     box-shadow: none;
   }
